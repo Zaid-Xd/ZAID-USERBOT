@@ -13,3 +13,4 @@ RUN pip3 install -r requirements.txt
 EXPOSE 5000
 RUN chmod +x /app/start.sh
 ENTRYPOINT ["./start.sh"]
+CMD python3 -m Zaid 
